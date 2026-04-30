@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+@theme {
+    --color-primary: var(--color-teal-500);
+    --color-dark: var(--color-slate-900);
+}
