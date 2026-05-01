@@ -12,7 +12,11 @@
 
 
 .container {
-    @apply mx-auto px-4; 
+  @apply mx-auto px-4; 
+}
+
+.hamburger-line {
+  @apply w-7.5 h-0.5 my-2 block bg-dark;
 }
 
 body {

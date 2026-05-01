@@ -201,6 +201,9 @@
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
+  .right-4 {
+    right: calc(var(--spacing) * 4);
+  }
   .bottom-0 {
     bottom: calc(var(--spacing) * 0);
   }
@@ -218,9 +221,6 @@
   }
   .z-10 {
     z-index: 10;
-  }
-  .z-99 {
-    z-index: 99;
   }
   .container {
     width: 100%;
@@ -326,6 +326,9 @@
   .items-center {
     align-items: center;
   }
+  .justify-between {
+    justify-content: space-between;
+  }
   .justify-center {
     justify-content: center;
   }
@@ -363,8 +366,14 @@
   .px-8 {
     padding-inline: calc(var(--spacing) * 8);
   }
+  .py-0 {
+    padding-block: calc(var(--spacing) * 0);
+  }
   .py-3 {
     padding-block: calc(var(--spacing) * 3);
+  }
+  .py-6 {
+    padding-block: calc(var(--spacing) * 6);
   }
   .pt-36 {
     padding-top: calc(var(--spacing) * 36);
@@ -567,6 +576,13 @@
 .container {
   margin-inline: auto;
   padding-inline: calc(var(--spacing) * 4);
+}
+.hamburger-line {
+  margin-block: calc(var(--spacing) * 2);
+  display: block;
+  height: calc(var(--spacing) * 0.5);
+  width: calc(var(--spacing) * 7.5);
+  background-color: var(--color-dark);
 }
 body {
   font-family: "Poppins", sans-serif;
