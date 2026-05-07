@@ -3,7 +3,7 @@
     "@tailwindcss/cli": "^4.2.4",
     "tailwindcss": "^4.2.4"
   },
-  "name": "webone",
+  "name": "webtwo",
   "version": "1.0.0",
   "scripts": {
     "dev": "npx @tailwindcss/cli -i ./src/css/style.css -o ./src/css/output.css --watch"
